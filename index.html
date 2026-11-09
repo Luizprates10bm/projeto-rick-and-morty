@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiverso Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu Superior -->
+    <header class="navbar">
+        <div class="logo">Rick & Morty Brasil</div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#personagens">Galeria</a>
+        </nav>
+    </header>
+
+    <!-- Banner Principal com Imagem do Desenho -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-texto">
+                <h1>Explore as Dimensões de Rick and Morty</h1>
+                <p>Acompanhe as viagens interdimensionais da família Smith e confira abaixo a lista completa de personagens da série.</p>
+                <a href="#personagens" class="btn-destaque">Ver Personagens</a>
+            </div>
+            <div class="hero-imagem">
+                <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Rick e Morty">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Desenho -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre a Animação</h2>
+        <div class="sobre-grid">
+            <div class="sobre-item">
+                <h3>A História</h3>
+                <p>Criada por Justin Roiland e Dan Harmon, a animação mostra as aventuras perigosas do cientista Rick Sanchez e de seu neto Morty.</p>
+            </div>
+            <div class="sobre-item">
+                <h3>O Multiverso</h3>
+                <p>A série aborda viagens por realidades paralelas, planetas alienígenas e humor sarcástico com ficção científica.</p>
+            </div>
+            <div class="sobre-item">
+                <h3>Reconhecimento</h3>
+                <p>Vencedora de vários prêmios, a animação virou um grande sucesso da cultura pop ao redor do mundo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Cards -->
+    <main id="personagens" class="galeria-area">
+        <div class="galeria-header">
+            <h2>Galeria de Personagens</h2>
+            <p>Conheça os personagens que aparecem ao longo dos episódios:</p>
+        </div>
+        
+        <!-- O JavaScript insere os cards aqui -->
+        <div id="card-container" class="container"></div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Projeto Front-End Acadêmico | HTML, CSS e JavaScript</p>
+        <p>Universo Rick and Morty</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
